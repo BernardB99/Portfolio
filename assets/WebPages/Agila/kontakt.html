@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<title>Agila - Kontakt</title>
+<link rel="icon" href="Images/favicon.ico">
+<link rel="stylesheet" href="Oblikovanje/CSS.css"/>
+<link rel="stylesheet" href="Oblikovanje/mediascreen.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin-ext" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet" type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="header">
+	<div id="logo">
+		<img src="Images/logo.png" id="logo_slika"/>
+			<div id="kocke">
+				<div id="kvadrat1"></div>
+				<div id="kvadrat2"></div>
+				<div id="kvadrat3"></div>
+				<div id="kvadrat4"></div>
+			</div>
+		<h6 id="podnaslov">Pospešujemo Poslovno Agilnost</h6>
+	</div>
+	<ul id="fade">
+		<li class="fade">IT Rešitve</li>
+		<li class="fade">Svetovanje</li>
+		<li class="fade">Spletno gostovanje</li>
+		<li class="fade"><i class="fa fa-phone"></i><span style="font-family:arial;">:</span> 01/62 03 314</li>
+	</ul>
+	<div id="osnova">
+	<div id="crte">
+		<hr class="drugihr"/>
+		<hr class="prvihr"/>
+		<hr class="drugihr"/>
+	</div>
+	<div id="meni">
+		<ul>
+			<li><a href="index.html" style="margin-right:0;margin-left:0;" class="effect-underline">Agila</a></li>
+			<li><a href="storitve.html" class="effect-underline">Storitve</a></li>
+			<li><a href="produkti.html" class="effect-underline">Produkti</a></li>
+			<li><a href="partnerji.html" class="effect-underline">Partnerji</a></li>
+			<li><a href="#" class="effect-underline">Kontakt</a></li>
+		</ul>
+	</div>
+	<div id="crte2">
+		<hr class="drugihr"/>
+		<hr class="prvihr"/>
+		<hr class="drugihr"/>
+	</div>
+	</div>
+</div>
+<div id="container">
+	<div id="transition1"></div>
+	<div id="main"><center>
+		<h1>AGILA inteligentne poslovne rešitve d.o.o.</h1>
+		<h2 class="kontakt_h2">Direktor: <span style="color:#6C6E71;">Mag. Janez Hrovat</span></h2></br>
+		<p class="info"><i class="fa fa-phone"></i>01/62 03 314</p></br>
+		<p class="info"><i class="fa fa-fax"></i>01/42 61 879 </p></br>
+		<a href="mailto:info@agila.si" class="info_a"><i class="fa fa-envelope"></i>info<span style="font-family:arial;">@</span>agila.si</a></br></br>
+		<h2 style="margin-bottom:0px;" class="kontakt_h2">Sedež: <span style="color:#6C6E71;">Tehnološki park 19, 1000 Ljubljana</span></h2></br>
+		<div id="map_border">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2769.090073960648!2d14.458550915577165!3d46.049301579112246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477ad2b1d176f995%3A0xd95f45fad86c4e97!2sAgila+inteligentne+poslovne+re%C5%A1itve+d.o.o.!5e0!3m2!1ssl!2ssi!4v1526979480730"
+		allowfullscreen></iframe></div>
+	</center></div>
+	<div id="transition2"></div>
+</div>
+<div id="footer">
+	<div>
+		<hr class="footer_crta" />
+		<hr class="footer_crta2" />
+		<hr class="footer_crta" />
+	</div>
+	<center><h2><span style="font-family:arial;">©</span> 2018 AGILA inteligentne poslovne rešitve d.o.o</h2></center>
+</div>
+<script src="Java/jquery00.js"></script>
+<script src="Java/ticker00.js"></script>
+<script>
+$(document).ready(function(){
+	$('#fade').list_ticker({
+		speed:3500,
+		effect:'fade'
+	});
+	$('#slide').list_ticker({
+		speed:3500,
+		effect:'slide'
+	});
+})
+</script>
+</body>
+</html>

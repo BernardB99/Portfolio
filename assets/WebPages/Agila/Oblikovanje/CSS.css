@@ -1,0 +1,470 @@
+html,body{
+margin:0;
+padding:0;
+
+}
+
+#logo_slika{
+	margin-left:30px;
+	margin-top:15px;
+	margin-bottom:0px;
+	margin-right:0px;
+	max-width:100%;
+	height:46px;
+	display:inline-block;
+}
+
+#naslov{
+	font-size:4.5em;
+	font-family: agency fb,"Teko","Oswald",'Saira Extra Condensed','Open Sans Condensed', sans-serif;
+	margin-left:60px;
+	margin-top:5px;
+	margin-bottom:0px;
+	margin-right:0px;
+	width:150px;
+	display:inline-block;
+}
+
+#podnaslov{
+	font-family: agency fb,"Teko","Oswald",'Saira Extra Condensed','Open Sans Condensed', sans-serif;
+	margin-left:30px;
+	margin-top:0px;
+	font-size:1.2em;
+	margin-bottom:10px;
+	width:300px;
+}
+
+#kocke{
+	float:right;
+	margin-right:95px;
+	margin-top:15px;
+	height:46px;
+}
+#kvadrat1{
+    width: 18px;
+    height: 18px;
+    background-color: red;
+	float:left;
+	margin-right:0px;
+	margin-bottom:0px;
+	border-radius: 3px;
+}
+
+#kvadrat2{
+    width: 18px;
+    height: 18px;
+    background-color: red;
+	margin-top:0px;
+	margin-left:27px;
+	border-radius: 3px;
+}
+
+#kvadrat3{
+    width: 18px;
+    height: 18px;
+    background-color: red;
+	margin-top:9px;
+	margin-right:0px;
+	border-radius: 3px;
+	display:inline-block;
+}
+
+#kvadrat4{
+	float:right;
+	width: 18px;
+    height: 18px;
+    background-color: black;
+	margin-top:9px;
+	margin-left:0px;
+	margin-bottom:18px;
+	border-radius: 3px;
+	position: relative;
+	animation-name: premik;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-delay: 1.5s;
+	-webkit-animation-name: premik;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-delay: 1.5s;
+	-webkit-animation-iteration-count: 1;
+}
+
+@keyframes premik {
+    100%   {background-color:black; left:0px; top:0px;}
+    75%  {background-color:red; left:0px; top:-27px;}
+    0%  {background-color:black; left:0px; top:0px;}
+    25%  {background-color:red; left:-27px; top:-0px;}
+    50% {background-color:red; left:-27px; top:-27px;}
+}
+
+@-webkit-@keyframes premik {
+    100%   {background-color:black; left:0px; top:0px;}
+    75%  {background-color:red; left:0px; top:-27px;}
+    0%  {background-color:black; left:0px; top:0px;}
+    25%  {background-color:red; left:-27px; top:0px;}
+    50% {background-color:red; left:-27px; top:-27px;}
+}
+
+.drugihr{
+	background-color:black;
+	color: black;
+	height:5px;
+	margin:0px;
+	border:0;
+}
+
+.prvihr{
+	background-color:#ff3333;
+	color: #ff3333;
+	height:9px;
+	margin:0px;
+	border:0;
+}
+
+#osnova{
+    width:100%;
+    text-align:center;
+	height:19px;
+}
+
+#crte{
+float:left;
+width:500px;
+}
+
+#crte2{
+float:right;
+width:500px;
+}
+
+#logo{
+	display:inline-block;
+	max-width:500px;
+}
+
+#fade{
+	float:right;
+	padding:0;
+	margin-bottom:0px;
+	margin-top:20px;
+	margin-right:40px;
+	list-style:none;
+}
+
+.fade{
+	font-family: agency fb,"Teko","Oswald",'Saira Extra Condensed','Open Sans Condensed', sans-serif;
+	color: #a70000;
+	font-size:3em;
+}
+
+.fade i{
+	font-size:45px;
+}
+
+#meni{
+	display: inline-block;
+    margin:0 auto;
+	margin-top:-30px;
+}
+
+#meni ul{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+
+#meni li {
+	float: left;
+}
+
+#meni li a {
+	position: relative;
+	width:125px;
+	text-align:center;
+	display: block;
+    color: 	#660000;
+    text-decoration: none;
+	font-size:2.5em;
+	margin:10px;
+	font-family: agency fb,"Teko","Oswald",'Saira Extra Condensed','Open Sans Condensed', sans-serif;
+	font-weight: bold;
+}
+
+#meni li a:hover {
+    color: #ff3333;
+}
+
+a.effect-underline:after {
+	content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-color: #e60000;
+  border-bottom: 2px solid;
+  margin-top: 10px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+a.effect-underline:hover:after {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+#container{
+width:100%;
+display: flex;
+}
+
+#transition1{
+	width:15%;
+	flex: 1;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b30000), to(white));
+	background: -webkit-linear-gradient(left, #b30000, white);
+	background: -moz-linear-gradient(left, #b30000, white);
+	background: -ms-linear-gradient(left, #b30000, white);
+	background: -o-linear-gradient(left, #b30000, white);
+	background: linear-gradient(left, #b30000, white);
+	float:left;
+}
+
+#transition2{
+	width:15%;
+	flex: 1;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b30000), to(white));
+	background: -webkit-linear-gradient(right, #b30000, white);
+	background: -moz-linear-gradient(right, #b30000, white);
+	background: -ms-linear-gradient(right, #b30000, white);
+	background: -o-linear-gradient(right, #b30000, white);
+	background: linear-gradient(right, #b30000, white);
+	float:right;
+}
+
+#main{
+    display: inline-block;
+    margin:0 auto;
+	width:70%;
+}
+
+#main h1{
+	margin-top:100px;
+	color:#e60000;
+	font-family: agency fb,"Teko","Oswald",'Saira Extra Condensed','Open Sans Condensed', sans-serif;
+	text-align:center;
+	font-size:2.3em;
+}
+
+.kontakt_h2{
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size:1.7em;
+}
+
+#podnaslov_main{
+	font-family: agency fb,"Teko","Oswald",'Saira Extra Condensed','Open Sans Condensed', sans-serif;
+	margin-left:50px;
+	font-size:3em;
+	margin-bottom:20px;
+	margin-top:130px;
+	color: #e60000;
+}
+
+.container_text{
+	width:100%;
+}
+
+.text{
+	width: 600px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: justify;
+	font-size:1.8em;
+	margin:53px;
+	display:inline-block;
+}
+
+.images{
+	width:250px;
+	height:250px;
+	float:right;
+	margin-right:100px;
+	margin-top:15px;
+}
+
+.footer_crta{
+	background-color:black;
+	color: black;
+	height:5px;
+	margin:0px;
+	border:0;
+}
+
+.footer_crta2{
+	background-color:#ff3333;
+	color: #ff3333;
+	height:9px;
+	margin:0px;
+	border:0;
+}
+
+#footer h2{
+	font-family: agency fb,"Teko","Oswald",'Saira Extra Condensed','Open Sans Condensed', sans-serif;
+}
+
+#main hr{
+	width:90%;
+}
+
+i{
+	margin:10px;
+}
+
+.info{
+	font-family: agency fb,"Teko","Oswald",'Saira Extra Condensed','Open Sans Condensed', sans-serif;
+	font-size:36px;
+	margin:0px;
+}
+
+.info_a{
+	text-decoration:none;
+	font-family: agency fb,"Teko","Oswald",'Saira Extra Condensed','Open Sans Condensed', sans-serif;
+	font-size:36px;
+	color:#ff3333;
+}
+
+.info i{
+	font-size:36px;
+	color: #6f0404;
+}
+.info_a i{
+	font-size:36px;
+	color: #6f0404;
+}
+
+iframe{
+	border:7px solid #ff3333;
+	width:600px;
+	height:450px;
+}
+
+#map_border{
+	height:464px;
+	width:614px;
+	border:7px solid black;
+	margin-bottom:50px;
+}
+
+.container_partnerji{
+	margin-bottom:50px;
+	margin-top:50px;
+}
+
+.container_partnerji img{
+	display:inline-block;
+	margin-left:100px;
+	width:350px;
+	height:180px;
+}
+
+.container_partnerji p{
+	float:right;
+	width:650px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: justify;
+	font-size:1.7em;
+	margin-right:100px;
+}
+.naslov_partner{
+	font-family: agency fb,"Teko","Oswald",'Saira Extra Condensed','Open Sans Condensed', sans-serif;
+	color:#e60000;
+	font-size:2.5em;
+	margin-left:60px;
+	margin-top: 140px;
+}
+
+.produkti_naslov{
+	color:#a70000;
+	font-family: agency fb,"Teko","Oswald",'Saira Extra Condensed','Open Sans Condensed', sans-serif;
+	float:left;
+	font-size:2em;
+	margin-top:12px;
+	margin-bottom:0px;
+}
+
+.produkti_text{
+	margin-left:10%;
+	width:650px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: justify;
+	font-size:1.5em;
+	display:inline-block;
+	margin-bottom:5%;
+	margin-top: 0px;
+}
+
+.produkti_container{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.produkti_container .produkti_main_text i{
+	margin-top:0px;
+	font-size:125px;
+	float:right;
+	margin-right:200px;
+	color:black;
+	margin-left:0px;
+}
+
+.produkti_container .produkti_main_text .produkti_text i{
+font-size:27px;
+color:red;
+float:left;
+margin-right:5px;
+margin-top:4px;
+margin-left:0px;
+}
+
+.produkti_container i{
+	font-size:48px;
+	color:red;
+	float:left;
+	margin-left:10%;
+	margin-bottom:0px;
+}
+
+#storitve_main_naslov{
+	color:#e60000;
+	font-family: agency fb,"Teko","Oswald",'Saira Extra Condensed','Open Sans Condensed', sans-serif;
+	font-size:3em;
+}
+
+#storitve_main_text{
+	width:55%;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:1.6em;
+	margin-bottom:50px;
+	color: 	#262626;
+}
+
+.storitve_mail{
+	text-decoration:none;
+	color:red;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: justify;
+}
+
+#produkti_main_naslov{
+	font-family: agency fb,"Teko","Oswald",'Saira Extra Condensed','Open Sans Condensed', sans-serif;
+	margin-left:10%;
+	font-size:3em;
+	margin-bottom:50px;
+	margin-top:130px;
+	color: #e60000;
+}

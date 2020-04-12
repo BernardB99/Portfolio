@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8" />
+<title>Agila - Informacijske rešitve</title>
+<link rel="icon" href="Images/favicon.ico">
+<link rel="stylesheet" href="Oblikovanje/CSS.css"/>
+<link rel="stylesheet" href="Oblikovanje/mediascreen.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin-ext" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet" type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="header">
+	<div id="logo">
+		<img src="Images/logo.png" id="logo_slika"/>
+			<div id="kocke">
+				<div id="kvadrat1"></div>
+				<div id="kvadrat2"></div>
+				<div id="kvadrat3"></div>
+				<div id="kvadrat4"></div>
+			</div>
+		<h6 id="podnaslov">Pospešujemo Poslovno Agilnost</h6>
+	</div>
+	<ul id="fade">
+		<li class="fade">IT Rešitve</li>
+		<li class="fade">Svetovanje</li>
+		<li class="fade">Spletno gostovanje</li>
+		<li class="fade"><i class="fa fa-phone"></i><span style="font-family:arial;">:</span> 01/62 03 314</li>
+	</ul>
+	<div id="osnova">
+	<div id="crte">
+		<hr class="drugihr"/>
+		<hr class="prvihr"/>
+		<hr class="drugihr"/>
+	</div>
+	<div id="meni">
+		<ul>
+			<li><a href="#" style="margin-right:0;margin-left:0;" class="effect-underline">Agila</a></li>
+			<li><a href="storitve.html" class="effect-underline">Storitve</a></li>
+			<li><a href="produkti.html" class="effect-underline">Produkti</a></li>
+			<li><a href="partnerji.html" class="effect-underline">Partnerji</a></li>
+			<li><a href="kontakt.html" class="effect-underline">Kontakt</a></li>
+		</ul>
+	</div>
+	<div id="crte2">
+		<hr class="drugihr"/>
+		<hr class="prvihr"/>
+		<hr class="drugihr"/>
+	</div>
+	</div>
+</div>
+<div id="container">
+	<div id="transition1"></div>
+	<div id="main">
+			<h2 id="podnaslov_main">Zakaj izbrati nas</h2>
+				<div class="container_text">
+				<p class="text">
+				<b>Agila inteligentne poslovne rešitve d.o.o.</b> je podjetje za svetovanje
+				in razvoj celovitih integriranih poslovnih rešitev in storitev.
+				Naše vodilo je, da z uporabo sodobnih informacijskih tehnologij
+				strankam omogočamo agilno odzivanje na turbulence globalnega okolja.
+				</p>
+				<img class="images" src="Images/agila1.png" />
+			</div>
+			<hr>
+			<div class="container_text">
+				<p class="text">
+				<b>Lastne IT rešitve</b> razvijamo v <b>Microsoft .NET</b> okolju. Strankam ponujamo
+				rešitve iz lastnega nabora, jih po potrebi prilagodimo naročnikovim
+				željam in zahtevam ter integriramo v morebitne že obstoječe informacijske
+				sisteme. Na željo stranke izdelamo tudi rešitve »pisane na kožo uporabnikom«.
+				</p>
+				<img class="images" src="Images/agila2.png"/>
+			</div>
+			<hr>
+			<div class="container_text">
+				<p class="text">
+				Ponudba <b>spletnih aplikacij</b> je zasnovana na <b>odprti kodi</b> s poudarkom na
+				integraciji spletnih rešitev v Typo3 CMS okolju. Spletne aplikacije
+				najraje razvijamo z odprtokodnimi tehnologijami (Linux, Apache, Php, Mysql),
+				za katere naročniku ni potrebno plačevati dragih licenc.
+				</p>
+				<img class="images" src="Images/agila3.png" />
+			</div>
+			<hr>
+			<div class="container_text">
+				<p class="text">
+				Ukvarjamo se z <b>izgradnjo informacijskih sistemov za podporo poslovnim procesom.</b>
+				Večjim naročnikom priporočamo, da za osnovo izvedbe izberejo eno izmed že
+				uveljavljenih BPM (Business Process Management) orodij. Le-ta nudijo informacijsko
+				podporo v vseh fazah življenjskega cikla poslovnega procesa: pri oblikovanju in razvoju,
+				upravljanju in nadzoru, poročanju in analiziranju ter simulacijah in izboljšavah.
+				Za manjše stranke pa so običajno dovolj že enostavnejše rešitve,
+				ki jih razvijemo na osnovi naročnikovih zahtev.
+				</p>
+				<img class="images" src="Images/agila4.png"/>
+			</div>
+	</div>
+	<div id="transition2"></div>
+</div>
+<div id="footer">
+	<div>
+		<hr class="footer_crta" />
+		<hr class="footer_crta2" />
+		<hr class="footer_crta" />
+	</div>
+<center><h2><span style="font-family:arial;">©</span> 2018 AGILA inteligentne poslovne rešitve d.o.o</h2></center>
+</div>
+<script src="Java/jquery00.js"></script>
+<script src="Java/ticker00.js"></script>
+<script>
+$(document).ready(function(){
+	$('#fade').list_ticker({
+		speed:3500,
+		effect:'fade'
+	});
+	$('#slide').list_ticker({
+		speed:3500,
+		effect:'slide'
+	});
+})
+</script>
+</body>
+</html>
